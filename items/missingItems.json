@@ -1,0 +1,1896 @@
+//{
+	//	"id": "berserkers_helmet",
+	//	"name": "Berserkers Helmet",
+	//	"icon": "items/berserkers_helmet.png",
+	//	"sets": ["berserker"],
+	//	"slot": "head",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "blackthorn_chestplate",
+	//	"name": "Blackthorn Chestplate",
+	//	"icon": "items/blackthorn_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "blackthorn_crown",
+	//	"name": "Blackthorn Crown",
+	//	"icon": "items/blackthorn_crown.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "blade_of_the_ruined",
+	//	"name": "Blade Of The Ruined",
+	//	"icon": "items/blade_of_the_ruined.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "blake",
+	//	"name": "Blake",
+	//	"icon": "items/blake.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "bloodedge",
+	//	"name": "Bloodedge",
+	//	"icon": "items/bloodedge.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "celestial_chestplate",
+	//	"name": "Celestial Chestplate",
+	//	"icon": "items/celestial_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "chainmail",
+	//	"name": "Chainmail",
+	//	"icon": "items/chainmail.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "cowards_ring",
+	//	"name": "Cowards Ring",
+	//	"icon": "items/cowards_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "crystal_staff",
+	//	"name": "Crystal Staff",
+	//	"icon": "items/crystal_staff.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "cursed_ring",
+	//	"name": "Cursed Ring",
+	//	"icon": "items/cursed_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "dark_harness",
+	//	"name": "Dark Harness",
+	//	"icon": "items/dark_harness.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "dark_magical_ring",
+	//	"name": "Dark Magical Ring",
+	//	"icon": "items/dark_magical_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "dark_precious",
+	//	"name": "Dark Precious",
+	//	"icon": "items/dark_precious.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "dawnbringer",
+	//	"name": "Dawnbringer",
+	//	"icon": "items/dawnbringer.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "death_message",
+	//	"name": "Death Message",
+	//	"icon": "items/death_message.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "demonic_axe",
+	//	"name": "Demonic Axe",
+	//	"icon": "items/demonic_axe.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "demonic_chestplate",
+	//	"name": "Demonic Chestplate",
+	//	"icon": "items/demonic_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "demonic_claymore",
+	//	"name": "Demonic Claymore",
+	//	"icon": "items/demonic_claymore.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "demonic_helmet",
+	//	"name": "Demonic Helmet",
+	//	"icon": "items/demonic_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "demonic_leggings",
+	//	"name": "Demonic Leggings",
+	//	"icon": "items/demonic_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "demonic_ring",
+	//	"name": "Demonic Ring",
+	//	"icon": "items/demonic_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "demonic_sabatons",
+	//	"name": "Demonic Sabatons",
+	//	"icon": "items/demonic_sabatons.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "eldrids_ring",
+	//	"name": "Eldrids Ring",
+	//	"icon": "items/eldrids_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "elemental_necklace",
+	//	"name": "Elemental Necklace",
+	//	"icon": "items/elemental_necklace.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ethercrests_blade",
+	//	"name": "Ethercrests Blade",
+	//	"icon": "items/ethercrests_blade.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ethercrests_chestplate",
+	//	"name": "Ethercrests Chestplate",
+	//	"icon": "items/ethercrests_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ethercrests_helmet",
+	//	"name": "Ethercrests Helmet",
+	//	"icon": "items/ethercrests_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ethercrests_leggings",
+	//	"name": "Ethercrests Leggings",
+	//	"icon": "items/ethercrests_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ethercrests_ring",
+	//	"name": "Ethercrests Ring",
+	//	"icon": "items/ethercrests_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ethercrests_sabatons",
+	//	"name": "Ethercrests Sabatons",
+	//	"icon": "items/ethercrests_sabatons.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ethercrests_staff",
+	//	"name": "Ethercrests Staff",
+	//	"icon": "items/ethercrests_staff.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ethercrests_sword",
+	//	"name": "Ethercrests Sword",
+	//	"icon": "items/ethercrests_sword.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "excalibur",
+	//	"name": "Excalibur",
+	//	"icon": "items/excalibur.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "famished_blade",
+	//	"name": "Famished Blade",
+	//	"icon": "items/famished_blade.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "giants_ring",
+	//	"name": "Giants Ring",
+	//	"icon": "items/giants_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "glimmer",
+	//	"name": "Glimmer",
+	//	"icon": "items/glimmer.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "gloom",
+	//	"name": "Gloom",
+	//	"icon": "items/gloom.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "golden_chestplate",
+	//	"name": "Golden Chestplate",
+	//	"icon": "items/golden_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "golden_crown",
+	//	"name": "Golden Crown",
+	//	"icon": "items/golden_crown.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "golden_dagger",
+	//	"name": "Golden Dagger",
+	//	"icon": "items/golden_dagger.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "golden_leggings",
+	//	"name": "Golden Leggings",
+	//	"icon": "items/golden_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "golden_sabatons",
+	//	"name": "Golden Sabatons",
+	//	"icon": "items/golden_sabatons.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "golden_sword",
+	//	"name": "Golden Sword",
+	//	"icon": "items/golden_sword.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "golden_warden",
+	//	"name": "Golden Warden",
+	//	"icon": "items/golden_warden.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "greeds_grasp",
+	//	"name": "Greeds Grasp",
+	//	"icon": "items/greeds_grasp.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "heart_of_gold",
+	//	"name": "Heart Of Gold",
+	//	"icon": "items/heart_of_gold.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "hunger_blade",
+	//	"name": "Hunger Blade",
+	//	"icon": "items/hunger_blade.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "hunters_boots",
+	//	"name": "Hunters Boots",
+	//	"icon": "items/hunters_boots.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "hunters_hood",
+	//	"name": "Hunters Hood",
+	//	"icon": "items/hunters_hood.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "hunters_jerkin",
+	//	"name": "Hunters Jerkin",
+	//	"icon": "items/hunters_jerkin.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "hunters_pants",
+	//	"name": "Hunters Pants",
+	//	"icon": "items/hunters_pants.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "hunters_ring",
+	//	"name": "Hunters Ring",
+	//	"icon": "items/hunters_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "hysword",
+	//	"name": "Hysword",
+	//	"icon": "items/hysword.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "iron_dagger",
+	//	"name": "Iron Dagger",
+	//	"icon": "items/iron_dagger.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "jesters_ring",
+	//	"name": "Jesters Ring",
+	//	"icon": "items/jesters_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "keepsake",
+	//	"name": "Keepsake",
+	//	"icon": "items/keepsake.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "leather_boots",
+	//	"name": "Leather Boots",
+	//	"icon": "items/leather_boots.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "leather_chestplate",
+	//	"name": "Leather Chestplate",
+	//	"icon": "items/leather_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "leather_helmet",
+	//	"name": "Leather Helmet",
+	//	"icon": "items/leather_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "leather_pants",
+	//	"name": "Leather Pants",
+	//	"icon": "items/leather_pants.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "life_seeker",
+	//	"name": "Life Seeker",
+	//	"icon": "items/life_seeker.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "lightning_boots",
+	//	"name": "Lightning Boots",
+	//	"icon": "items/lightning_boots.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "living_boots",
+	//	"name": "Living Boots",
+	//	"icon": "items/living_boots.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "living_chestplate",
+	//	"name": "Living Chestplate",
+	//	"icon": "items/living_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "living_helmet",
+	//	"name": "Living Helmet",
+	//	"icon": "items/living_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "living_leggings",
+	//	"name": "Living Leggings",
+	//	"icon": "items/living_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "magical_stick",
+	//	"name": "Magical Stick",
+	//	"icon": "items/magical_stick.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "magic_wand",
+	//	"name": "Magic Wand",
+	//	"icon": "items/magic_wand.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "magma_chestplate",
+	//	"name": "Magma Chestplate",
+	//	"icon": "items/magma_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "magma_helmet",
+	//	"name": "Magma Helmet",
+	//	"icon": "items/magma_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "magma_leggings",
+	//	"name": "Magma Leggings",
+	//	"icon": "items/magma_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "magma_sabatons",
+	//	"name": "Magma Sabatons",
+	//	"icon": "items/magma_sabatons.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "mana_gauntlet",
+	//	"name": "Mana Gauntlet",
+	//	"icon": "items/mana_gauntlet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "mana_guardian",
+	//	"name": "Mana Guardian",
+	//	"icon": "items/mana_guardian.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "marauders_helmet",
+	//	"name": "Marauders Helmet",
+	//	"icon": "items/marauders_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "mask_of_cataclysm",
+	//	"name": "Mask Of Cataclysm",
+	//	"icon": "items/mask_of_cataclysm.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "mask_of_the_cursed",
+	//	"name": "Mask Of The Cursed",
+	//	"icon": "items/mask_of_the_cursed.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "natures_collar",
+	//	"name": "Natures Collar",
+	//	"icon": "items/natures_collar.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "natures_gift",
+	//	"name": "Natures Gift",
+	//	"icon": "items/natures_gift.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "nighthorn",
+	//	"name": "Nighthorn",
+	//	"icon": "items/nighthorn.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "omni_ring",
+	//	"name": "Omni Ring",
+	//	"icon": "items/omni_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "orions_core",
+	//	"name": "Orions Core",
+	//	"icon": "items/orions_core.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "orions_destiny",
+	//	"name": "Orions Destiny",
+	//	"icon": "items/orions_destiny.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "orions_heart",
+	//	"name": "Orions Heart",
+	//	"icon": "items/orions_heart.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "orions_leggings",
+	//	"name": "Orions Leggings",
+	//	"icon": "items/orions_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "orions_path",
+	//	"name": "Orions Path",
+	//	"icon": "items/orions_path.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "orions_rage",
+	//	"name": "Orions Rage",
+	//	"icon": "items/orions_rage.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "orions_sanguine_salvation",
+	//	"name": "Orions Sanguine Salvation",
+	//	"icon": "items/orions_sanguine_salvation.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "pantaloons_of_greatness",
+	//	"name": "Pantaloons Of Greatness",
+	//	"icon": "items/pantaloons_of_greatness.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "phantom_tome",
+	//	"name": "Phantom Tome",
+	//	"icon": "items/phantom_tome.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "poor_mans_blade",
+	//	"name": "Poor Mans Blade",
+	//	"icon": "items/poor_mans_blade.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "poor_mans_helmet",
+	//	"name": "Poor Mans Helmet",
+	//	"icon": "items/poor_mans_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "precious_ring",
+	//	"name": "Precious Ring",
+	//	"icon": "items/precious_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "qolk",
+	//	"name": "Qolk",
+	//	"icon": "items/qolk.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "recruits_boots",
+	//	"name": "Recruits Boots",
+	//	"icon": "items/recruits_boots.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "recruits_cloak",
+	//	"name": "Recruits Cloak",
+	//	"icon": "items/recruits_cloak.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "recruits_hood",
+	//	"name": "Recruits Hood",
+	//	"icon": "items/recruits_hood.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "recruits_pants",
+	//	"name": "Recruits Pants",
+	//	"icon": "items/recruits_pants.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ring_of_anger",
+	//	"name": "Ring Of Anger",
+	//	"icon": "items/ring_of_anger.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ring_of_ice",
+	//	"name": "Ring Of Ice",
+	//	"icon": "items/ring_of_ice.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "ring_of_power",
+	//	"name": "Ring Of Power",
+	//	"icon": "items/ring_of_power.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "rod_of_doom",
+	//	"name": "Rod Of Doom",
+	//	"icon": "items/rod_of_doom.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "royal_chestplate",
+	//	"name": "Royal Chestplate",
+	//	"icon": "items/royal_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "royal_helmet",
+	//	"name": "Royal Helmet",
+	//	"icon": "items/royal_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "royal_leggings",
+	//	"name": "Royal Leggings",
+	//	"icon": "items/royal_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "royal_sabatons",
+	//	"name": "Royal Sabatons",
+	//	"icon": "items/royal_sabatons.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shadow_echo",
+	//	"name": "Shadow Echo",
+	//	"icon": "items/shadow_echo.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shadow_piercer",
+	//	"name": "Shadow Piercer",
+	//	"icon": "items/shadow_piercer.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shadow_ring",
+	//	"name": "Shadow Ring",
+	//	"icon": "items/shadow_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shadow_sentence",
+	//	"name": "Shadow Sentence",
+	//	"icon": "items/shadow_sentence.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shadow_vortex",
+	//	"name": "Shadow Vortex",
+	//	"icon": "items/shadow_vortex.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shadow_whisper",
+	//	"name": "Shadow Whisper",
+	//	"icon": "items/shadow_whisper.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shadow_wisdom",
+	//	"name": "Shadow Wisdom",
+	//	"icon": "items/shadow_wisdom.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shamans_robe",
+	//	"name": "Shamans Robe",
+	//	"icon": "items/shamans_robe.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "shard_of_power",
+	//	"name": "Shard Of Power",
+	//	"icon": "items/shard_of_power.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "silver_axe",
+	//	"name": "Silver Axe",
+	//	"icon": "items/silver_axe.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "silver_chestplate",
+	//	"name": "Silver Chestplate",
+	//	"icon": "items/silver_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "silver_helmet",
+	//	"name": "Silver Helmet",
+	//	"icon": "items/silver_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "silver_leggings",
+	//	"name": "Silver Leggings",
+	//	"icon": "items/silver_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "silver_ring",
+	//	"name": "Silver Ring",
+	//	"icon": "items/silver_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "silver_sabatons",
+	//	"name": "Silver Sabatons",
+	//	"icon": "items/silver_sabatons.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "silver_sword",
+	//	"name": "Silver Sword",
+	//	"icon": "items/silver_sword.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "soul_collector",
+	//	"name": "Soul Collector",
+	//	"icon": "items/soul_collector.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "starborn_ring",
+	//	"name": "Starborn Ring",
+	//	"icon": "items/starborn_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "throngler",
+	//	"name": "Throngler",
+	//	"icon": "items/throngler.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "thunderblade",
+	//	"name": "Thunderblade",
+	//	"icon": "items/thunderblade.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "thundergrace",
+	//	"name": "Thundergrace",
+	//	"icon": "items/thundergrace.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "thunderhelm",
+	//	"name": "Thunderhelm",
+	//	"icon": "items/thunderhelm.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "thunderiders",
+	//	"name": "Thunderiders",
+	//	"icon": "items/thunderiders.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "thunderstriders",
+	//	"name": "Thunderstriders",
+	//	"icon": "items/thunderstriders.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "thundervow",
+	//	"name": "Thundervow",
+	//	"icon": "items/thundervow.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "training_axe",
+	//	"name": "Training Axe",
+	//	"icon": "items/training_axe.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "training_bow",
+	//	"name": "Training Bow",
+	//	"icon": "items/training_bow.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "training_hammer",
+	//	"name": "Training Hammer",
+	//	"icon": "items/training_hammer.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "training_sword",
+	//	"name": "Training Sword",
+	//	"icon": "items/training_sword.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "turtle_chestplate",
+	//	"name": "Turtle Chestplate",
+	//	"icon": "items/turtle_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "turtle_leggings",
+	//	"name": "Turtle Leggings",
+	//	"icon": "items/turtle_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "turtle_sabatons",
+	//	"name": "Turtle Sabatons",
+	//	"icon": "items/turtle_sabatons.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "unchained_gauntlet",
+	//	"name": "Unchained Gauntlet",
+	//	"icon": "items/unchained_gauntlet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "unknown",
+	//	"name": "Unknown",
+	//	"icon": "items/unknown.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "vampiric_chestplate",
+	//	"name": "Vampiric Chestplate",
+	//	"icon": "items/vampiric_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "vitality_ring",
+	//	"name": "Vitality Ring",
+	//	"icon": "items/vitality_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "warriors_chestplate",
+	//	"name": "Warriors Chestplate",
+	//	"icon": "items/warriors_chestplate.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "warriors_helmet",
+	//	"name": "Warriors Helmet",
+	//	"icon": "items/warriors_helmet.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "warriors_leggings",
+	//	"name": "Warriors Leggings",
+	//	"icon": "items/warriors_leggings.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "warriors_ring",
+	//	"name": "Warriors Ring",
+	//	"icon": "items/warriors_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "warriors_sabatons",
+	//	"name": "Warriors Sabatons",
+	//	"icon": "items/warriors_sabatons.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "warriors_war_hammer",
+	//	"name": "Warriors War Hammer",
+	//	"icon": "items/warriors_war_hammer.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "witherscar",
+	//	"name": "Witherscar",
+	//	"icon": "items/witherscar.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "wooden_crown",
+	//	"name": "Wooden Crown",
+	//	"icon": "items/wooden_crown.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "wooden_plates",
+	//	"name": "Wooden Plates",
+	//	"icon": "items/wooden_plates.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "wooden_shoes",
+	//	"name": "Wooden Shoes",
+	//	"icon": "items/wooden_shoes.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "zephyrons_eye",
+	//	"name": "Zephyrons Eye",
+	//	"icon": "items/zephyrons_eye.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "zephyrons_magical_cap",
+	//	"name": "Zephyrons Magical Cap",
+	//	"icon": "items/zephyrons_magical_cap.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "zephyrons_magical_cloak",
+	//	"name": "Zephyrons Magical Cloak",
+	//	"icon": "items/zephyrons_magical_cloak.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "zephyrons_magical_ring",
+	//	"name": "Zephyrons Magical Ring",
+	//	"icon": "items/zephyrons_magical_ring.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//},
+	//{
+	//	"id": "zephyrons_magical_shoes",
+	//	"name": "Zephyrons Magical Shoes",
+	//	"icon": "items/zephyrons_magical_shoes.png",
+	//	"sets": ["wood"],
+	//	"slot": "weapon",
+	//	"baseEffects": {
+	//	    "Armor": 2
+	//	},
+	//	"setEffects": {
+	//	}
+	//}
