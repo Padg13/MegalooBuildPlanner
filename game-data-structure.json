@@ -1,0 +1,317 @@
+{
+  "rarities": {
+    "common": {
+      "name": "Common",
+      "border": "rarity_borders/common_rarity_border.png",
+      "multiplier": 1
+    },
+	"uncommon": {
+      "name": "Common",
+      "border": "rarity_borders/uncommon_rarity_border.png",
+      "multiplier": 2
+    },
+    "rare": {
+      "name": "Rare",
+      "border": "rarity_borders/rare_rarity_border.png",
+      "multiplier": 3
+    },
+    "legendary": {
+      "name": "Legendary",
+      "border": "rarity_borders/legendary_rarity_border.png",
+      "multiplier": 4
+    },
+	"mythic": {
+      "name": "Mythic",
+      "border": "rarity_borders/mythic_rarity_border.png",
+      "multiplier": 5
+    },
+	"eternal": {
+      "name": "Eternal",
+      "border": "rarity_borders/eternal_rarity_border.png",
+      "multiplier": 6
+    },
+	"abyssal": {
+      "name": "Abyssal",
+      "border": "rarity_borders/abyssal_rarity_border.png",
+      "multiplier": 7
+    },
+	"cosmic": {
+      "name": "Cosmic",
+      "border": "rarity_borders/cosmic_rarity_border.png",
+      "multiplier": 8
+    },
+	"divine": {
+      "name": "Divine",
+      "border": "rarity_borders/divine_rarity_border.png",
+      "multiplier": 9
+    }
+  },
+  "stats": [
+    "Armor", "Armor %", "Physical Attack", "Physical Attack %", "Magic Attack", "Magic Attack %",
+    "Penetration %", "Wisdom", "Life Steal %", "Max Health", "Max Health %", "Recovery",
+    "Critical Damage %", "Heal %", "Max Energy", "Faith %", "Elemental Power %", "Combat",
+    "Freeze Attack", "Cinder Attack", "Insight", "Electricity", "Toughness %", "Power %",
+    "Toxicity", "Dazzle", "Malice", "Malice %"
+  ],
+  "sets": {
+    "generic": { "name": "Generic Set" },
+    "wood": { "name": "Wood Set" },
+    "mercenary": { "name": "Mercenary Set" },
+    "silver": { "name": "Silver Set" },
+    "golden": { "name": "Golden Set" },
+    "hunter": { "name": "Hunter Set" },
+    "warrior": { "name": "Warrior Set" },
+    "swiftness": { "name": "Swiftness Set" },
+    "monomana": { "name": "Monomana Set" },
+    "zephyrons": { "name": "Zephyron's Set" },
+    "ancient_ice": { "name": "Ancient Ice Set" },
+    "scout": { "name": "Scout Set" },
+    "arcanum": { "name": "Arcanum Set" },
+    "shadow": { "name": "Shadow Set" },
+    "blackthorn": { "name": "Blackthorn Set" },
+    "darkness": { "name": "Darkness Set" },
+    "flesh": { "name": "Flesh Set" },
+    "unchained": { "name": "Unchained Set" },
+    "orion": { "name": "Orion Set" },
+    "demonic": { "name": "Demonic Set" },
+    "cursed": { "name": "Cursed Set" },
+    "ancient_shell": { "name": "Ancient Shell Set" },
+    "royal": { "name": "Royal Set" },
+    "magma": { "name": "Magma Set" },
+    "chromalure": { "name": "Chromalure Set" },
+    "jade": { "name": "Jade Set" },
+    "cataclysm": { "name": "Cataclysm Set" },
+    "celestial": { "name": "Celestial Set" },
+    "thunder": { "name": "Thunder Set" },
+    "vampiric": { "name": "Vampiric Set" },
+	"berserker": { "name": "Berserker Set" },
+	"poverty": { "name": "Poverty Set" },
+	"legacy": { "name": "Legacy Set" }
+  },
+  
+  "characters": [
+    {
+      "id": "sid",
+      "name": "Sid",
+      "portrait": "portraits/sid.png",
+      "baseStats": {
+        "Health": 10,
+        "Energy": 4,
+        "Physical Attack": 2
+      },
+      "baseSet": "mercenary",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "ring", "ring"]
+    },
+    {
+      "id": "elys",
+      "name": "Elys",
+      "portrait": "portraits/elys.png",
+      "baseStats": {
+        "Health": 7,
+        "Physical Attack": 1,
+        "Mana": 3
+      },
+      "baseSet": "vampiric",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "ring", "ring"]
+    },
+    {
+      "id": "kinno",
+      "name": "Kinno",
+      "portrait": "portraits/kinno.png",
+      "baseStats": {
+        "Health": 5,
+        "Energy": 3,
+        "Mana": 3,
+        "Magic Attack": 3
+	  },
+      "baseSet": "arcanum",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "ring", "ring"]
+    },
+    {
+      "id": "tyr",
+      "name": "Tyr",
+      "portrait": "portraits/tyr.png",
+      "baseStats": {
+        "Health": 20,
+        "Physical Attack": 1,
+        "Mana": 3
+      },
+      "baseSet": "blackthorn",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "ring", "ring", "ring"]
+    },
+    {
+      "id": "fael",
+      "name": "Fael",
+      "portrait": "portraits/fael.png",
+      "baseStats": {
+        "Health": 10,
+        "Physical Attack": 2,
+        "Mana": 2,
+        "Total Attacks": 2
+      },
+      "baseSet": "warrior",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "weapon", "ring"]
+    },
+    {
+      "id": "fren",
+      "name": "Fren",
+      "portrait": "portraits/fren.png",
+      "baseStats": {
+        "Health": 7,
+        "Energy": 5,
+        "Physical Attack": 1,
+        "Total Attacks": 2
+      },
+      "baseSet": "scout",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "ring", "ring"]
+    },
+    {
+      "id": "pyry",
+      "name": "Pyry",
+      "portrait": "portraits/pyry.png",
+      "baseStats": {
+        "Health": 8,
+        "Mana": 3,
+        "Magic Attack": 2
+      },
+      "baseSet": "darkness",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "ring", "ring"]
+    },
+    {
+      "id": "viran",
+      "name": "Viran",
+      "portrait": "portraits/viran.png",
+      "baseStats": {
+        "Health": 5,
+        "Physical Attack": 1,
+        "Mana": 2,
+        "Total Attacks": 2,
+        "Toxicity": 3
+      },
+      "baseSet": "generic",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "ring", "ring"]
+    },
+    {
+      "id": "riel",
+      "name": "Riel",
+      "portrait": "portraits/riel.png",
+      "baseStats": {
+        "Health": 9,
+        "Mana": 2,
+        "Magic Attack": 1
+      },
+      "baseSet": "generic",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "ring", "ring"]
+    },
+    {
+      "id": "jace",
+      "name": "Jace",
+      "portrait": "portraits/jace.png",
+      "baseStats": {
+        "Health": 10,
+        "Physical Attack": 2,
+        "Mana": 2,
+        "Toughness": 25
+      },
+      "baseSet": "legacy",
+      "gridLayout": ["head", "chest", "legs", "feet", "neck", "weapon", "ring", "ring"]
+    }
+  ],
+  
+  "items": [
+    {
+		"id": "alchemists_wisdom",
+		"name": "Alchemists Wisdom",
+		"icon": "items/alchemists_wisdom.png",
+		"sets": ["generic"],
+		"slot": "ring",
+		"baseEffects": {
+			"Widsom": 12,
+			"Insight": 7
+		},
+		"setEffects": {
+		}
+	},
+	{
+		"id": "amulet_of_life",
+		"name": "Amulet Of Life",
+		"icon": "items/amulet_of_life.png",
+		"sets": ["generic"],
+		"slot": "neck",
+		"baseEffects": {
+			"Max Health": 2,
+			"Recovery": 1
+		},
+		"setEffects": {
+		}
+	},
+	{
+		"id": "arcanum_robe",
+		"name": "Arcanum Robe",
+		"icon": "items/arcanum_robe.png",
+		"sets": ["arcanum"],
+		"slot": "chest",
+		"baseEffects": {
+			"Max Energy": 7
+		},
+		"setEffects": {
+			"shadow": {
+				"Wisdom": 12
+			}
+		}
+	},
+	{
+		"id": "arcanum_shoes",
+		"name": "Arcanum Shoes",
+		"icon": "items/arcanum_shoes.png",
+		"sets": ["arcanum"],
+		"slot": "feet",
+		"baseEffects": {
+			"Wisdom": 5,
+			"Max Energy": 2
+			},
+		"setEffects": {
+		}
+	},
+	{
+		"id": "banished_necklace",
+		"name": "Banished Necklace",
+		"icon": "items/banished_necklace.png",
+		"sets": ["cursed"],
+		"slot": "neck",
+		"baseEffects": {
+		},
+		"setEffects": {
+			"cursed": {
+				"Malice %": 25
+			}
+		}
+	},
+	{
+		"id": "believers_locket",
+		"name": "Believers Locket",
+		"icon": "items/believers_locket.png",
+		"sets": ["silver"],
+		"slot": "neck",
+		"baseEffects": {
+		},
+		"setEffects": {
+			"silver": {
+				"Faith %": 36
+			}
+		}
+	},
+	{
+		"id": "berserkers_axe",
+		"name": "Berserkers Axe",
+		"icon": "items/berserkers_axe.png",
+		"sets": ["berserker"],
+		"slot": "weapon",
+		"baseEffects": {
+		    "Physical Attack": 10
+		},
+		"setEffects": {
+		}
+	}	
+  ]
+}

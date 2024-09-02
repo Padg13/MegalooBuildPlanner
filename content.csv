@@ -1,0 +1,356 @@
+Stats
+Name,Value,Growth
+Active Armor,1,1.25
+Adaptive Attack,1.45,1.75
+Agility,1,1.25
+Armor,1.25,1.25
+Armor Damage,1,1.25
+Armor,1,1.25
+Armor Shields,18,1.75
+Armored Attack,1.45,2.45
+Cinder Damage,1.75,2.15
+Combat,1.25,1.45
+Confusion Attack,1,1.25
+Crit Chance,1,1.25
+Critical Damage,0.75,1.25
+Dazzle,3.25,1.25
+Dazzle Damage,3.25,1.25
+Electric Damage,1,1
+Electricity,1.75,1.45
+Elemental Power,1.25,1.75
+Energy,1,1.25
+Faith,1.45,1.75
+Freeze Attack,1.26,1.36
+Freeze Damage,1,1
+Gold,1,1
+Gold Gain,1,1.25
+Heal Power,1,1
+Health,1,1.25
+Insight,2.75,1.45
+Life Steal,1,1.75
+Magic Attack,1.25,1.45
+Magic Damage,1,1
+Malice,1.45,1.25
+Malice Damage,1,1
+Mana,1,1
+Max Energy,1.45,2.15
+Max Health,1.45,1.25
+Max Mana,1,1
+Omni Crit Chance,1,1.25
+Omni Vamp,1.75,2.75
+Penetration,1,1
+Physical Attack,1.45,1.75
+Physical Damage,1,1
+Poison Damage,1,1
+Power,1.25,1.75
+Precision,1,1.25
+Recovery,2.15,1.45
+Total Attacks,14.75,2.45
+Toughness,1,1.25
+Toxicity,1.45,1.75
+True Damage,1,1.25
+Wisdom,1.17,1.45
+
+Items
+Name,Set,Price,Market Level,Stats
+Wooden Shoes,Wood,3,1,Armor: 1   
+Training Sword,Wood + Swiftness,3,1,Physical Attack: 1   
+Recruit's Boots,Scout,7,1,Agility: 3   
+Wooden Plates,Wood,7,1,Armor: 2   
+Magical Stick,Wood,7,1,Magic Attack: 2   
+Training Hammer,Wood,8,1,Penetration: 2   Physical Attack: 1   
+Keepsake,Generic,9,1,Wisdom: 3   
+Silver Sabatons,Silver,10,1,Armor: 3   
+Amulet of Life,Generic,12,1,Max Health: 2   Recovery: 1   
+Greed's Grasp,Golden,13,1,Life Steal: 3   
+Training Axe,Wood,13,1,Physical Attack: 2   
+Golden Sabatons,Golden,14,1,Armor: 4   
+Recruit's Pants,Scout,14,1,Agility: 5   
+Hunter's Boots,Hunter,14,1,Precision: 5   
+Warrior's Sabatons,Warrior,14,1,Armor: 4   
+Silver Helmet,Silver,14,1,Armor: 4   
+Hunter's Ring,Hunter,14,1,Critical Damage: 5x Hunter   
+Chainmail,Generic,17,2,Armor: 6   
+Leather Boots,Mercenary,17,2,Armor: 2   
+Golden Leggings,Golden,18,2,Armor: 5   
+Silver Leggings,Silver,18,2,Armor: 5   
+Leather Helmet,Mercenary,19,2,Armor: 3   
+Nature's Collar,Wood,23,2,Heal Power: 10x Wood   
+Silver Chestplate,Silver,23,2,Armor: 6   
+Leather Pants,Mercenary,23,2,Armor: 4   
+Recruit's Hood,Scout,25,2,Agility: 8   
+Iron Dagger,Swiftness,25,2,Physical Attack: 3   
+Leather Chestplate,Mercenary,27,2,Armor: 5   
+Ethercrest's Sabatons,Ancient Ice,30,2,Armor: 6x Ancient Ice   
+Mana Guardian,Monomana,30,2,Armor: 6x Monomana   
+Orion's Path,Orion,30,2,Armor: 6x Orion   
+Hunger Blade,Flesh + Swiftness,32,2,Physical Attack: 2x Flesh   Max Health: 1   
+Hunter's Hood,Hunter,33,2,Precision: 10   
+Golden Chestplate,Golden,33,2,Armor: 8   
+Warrior's Leggings,Warrior,33,2,Armor: 8   
+Arcanum Shoes,Arcanum,35,2,Wisdom: 5   Agility: 2   
+Zephyron's Magical Shoes,Zephyron's,39,2,Wisdom: 7   
+Recruit's Cloak,Scout,42,2,Agility: 12   
+Orion's Leggings,Orion,42,2,Armor: 8x Orion   
+Mana Gauntlet,Monomana,43,2,Magic Attack: 6x Monomana   
+Warrior's Chestplate,Warrior,43,2,Armor: 10   
+Golden Dagger,Golden + Swiftness,47,3,Physical Attack: 3x Golden   
+Ethercrest's Helmet,Ancient Ice,54,3,Armor: 10x Ancient Ice   
+Hunter's Pants,Hunter,54,3,Precision: 15   
+Nature's Gift,Wood,58,3,Elemental Power: 5x Wood   
+Precious Ring,Golden,58,3,Power: 5x Golden   
+Marauder's Helmet,Silver + Mercenary,63,3,Armor: 4x Mercenary   Faith: 2   
+Life Seeker,Silver,65,3,Max Health: 5x Silver   Recovery: 3   
+Shadow Echo,Shadow,67,3,Magic Attack: 8x Shadow   
+Turtle Sabatons,Ancient Shell,73,3,Armor: 10x Ancient Shell   Toughness: 5x Ancient Shell   
+Silver Ring,Silver,75,3,Faith: 5x Silver   
+Golden Sword,Golden,75,3,Physical Attack: 5x Golden   
+Ethercrest's Blade,Ancient Ice + Swiftness,78,4,Freeze Attack: 8x Ancient Ice   
+Hunter's Jerkin,Hunter,78,4,Precision: 20   
+Magic Wand,Darkness + Wood,80,4,Magic Attack: 4x Darkness   Insight: 2   
+Ethercrest's Leggings,Ancient Ice,82,4,Armor: 14x Ancient Ice   
+Shadow Wisdom,Shadow,82,4,Wisdom: 10x Shadow   
+Zephyron's Magical Cap,Zephyron's,85,4,Wisdom: 12   
+Orion's Sanguine Salvation,Orion,85,4,Max Health: 10x Orion   Toughness: 5x Orion   
+Omni Ring,Generic,87,4,Max Health: 12   Wisdom: 7   
+Ethercrest's Ring,Ancient Ice,90,4,Freeze Attack: 6x Ancient Ice   Armor: 4x Ancient Ice   
+Poor Man's Blade,Poverty,90,4,Physical Attack: 1   Critical Damage: 25   
+Blackthorn Chestplate,Blackthorn,90,4,Armor: 15x Blackthorn   
+Ring of Anger,Generic,97,4,Physical Attack: 5   
+Starborn Ring,Generic,97,4,Wisdom: 17   
+Living Boots,Flesh,99,4,Max Health: 10x Flesh   Recovery: 2   
+Silver Sword,Silver,103,4,Physical Attack: 6x Silver   
+Shadow Piercer,Shadow,113,4,Critical Damage: 24x Shadow   Penetration: 4   
+Ethercrest's Chestplate,Ancient Ice,114,4,Armor: 18x Ancient Ice   
+Shadow Vortex,Shadow,115,4,Magic Attack: 7x Shadow   
+HySword,Golden,117,4,Elemental Power: 5x Golden   Physical Attack: 4   
+Thunderiders,Thunder,122,4,Electricity: 7x Thunder   Armor: 4   
+Shadow Ring,Shadow,126,5,Critical Damage: 25x Shadow   Agility: 5   
+Warrior's Ring,Warrior,132,5,Max Health: 10x Warrior   Combat: 7   
+Zephyron's Magical Cloak,Zephyron's,139,5,Wisdom: 17   
+Orion's Core,Orion,141,5,Max Health: 15x Orion   Penetration: 6   
+Crystal Staff,Generic,144,5,Magic Attack: 12   Insight: 5   
+Ethercrest's Staff,Ancient Ice,145,5,Magic Attack: 14x Ancient Ice   
+Vitality Ring,Generic,147,5,Max Health: 15   Recovery: 7   
+Coward's Ring,Generic,147,5,Agility: 45   
+Orion's Destiny,Orion,152,5,Combat: 12x Orion   Armor: 7x Orion   
+Arcanum Robe,Arcanum,153,5,Wisdom: 12x Arcanum   Agility: 7   
+Demonic Sabatons,Demonic,158,5,Armor: 8   Max Health: 4   
+Unchained Gauntlet,Unchained,163,5,Adaptive Attack: 9   
+Living Helmet,Flesh,177,6,Max Health: 15x Flesh   Recovery: 4   
+Alchemist's Wisdom,Generic,180,6,Wisdom: 12   Insight: 7   
+Turtle Leggings,Ancient Shell,186,6,Armor: 20   Toughness: 15   
+Demonic Helmet,Demonic,189,6,Armor: 10x Demonic   Max Health: 5   
+Poor Man's Helmet,Poverty,189,6,Armor: 2x Poverty   Critical Damage: 45   
+Demonic Leggings,Demonic,195,6,Armor: 12   Max Health: 6   
+Berserker's Axe,Berserker,195,6,Physical Attack: 10   
+Cursed Ring,Cursed,203,6,Malice: 25x Cursed   
+Thunderhelm,Thunder,209,6,Electricity: 10x Thunder   Armor: 7   
+Warrior's War Hammer,Warrior,218,6,Physical Attack: 8x Warrior   Penetration: 8   
+Warrior's Helmet,Warrior,221,6,Combat: 15x Warrior   Armor: 6   
+Golden Warden,Golden,223,6,Armor: 15x Golden   
+Thunderblade,Thunder,239,6,Magic Attack: 12x Thunder   Electricity: 8   
+Dark Harness,Darkness + Wood,240,6,Insight: 7x Darkness   
+Zephyron's Eye,Zephyron's,243,6,Wisdom: 25   
+Demonic Chestplate,Demonic,248,7,Armor: 15x Demonic   Max Health: 7   
+Dark Magical Ring,Darkness + Zephyron's,254,7,Wisdom: 17x Darkness   
+Turtle Chestplate,Ancient Shell,254,7,Armor: 25   Toughness: 20   
+Zephyron's Magical Ring,Zephyron's,254,7,Wisdom: 22x Zephyron's   
+Orion's Heart,Orion,257,7,Max Health: 25x Orion   Armor: 10x Orion   
+Royal Sabatons,Royal,258,7,Combat: 8x Royal   Faith: 6x Silver   Armor: 4   
+Shard of Power,Generic,261,7,Power: 15   Penetration: 5   
+Famished Blade,Flesh,273,7,Physical Attack: 8x Flesh   Max Health: 5   Life Steal: 2   
+Living Leggings,Flesh,273,7,Max Health: 20x Flesh   Recovery: 6   
+Ethercrest's Sword,Ancient Ice,290,7,Freeze Attack: 28x Ancient Ice   
+Shaman's Robe,Cursed,304,7,Wisdom: 25x Cursed   
+Blackthorn Crown,Blackthorn,304,7,Wisdom: 25x Blackthorn   
+Jesters Ring,Generic,308,7,Elemental Power: 15   Wisdom: 10   
+Thunderstriders,Thunder,335,8,Electricity: 14x Thunder   Armor: 10   
+Heart of Gold,Golden,352,8,Max Health: 17x Golden   Armor: 10   Elemental Power: 5   Toughness: 3   
+Silver Axe,Silver + Swiftness,353,8,Physical Attack: 10x Silver   
+Living Chestplate,Flesh,368,8,Max Health: 24x Flesh   Recovery: 8   
+Eldrid's Ring,Flesh,377,8,Life Steal: 15x Flesh   Recovery: 7x Flesh   
+Royal Helmet,Royal,391,8,Combat: 10x Royal   Faith: 8x Silver   Armor: 6   
+Ring of Ice,Generic,442,8,Freeze Attack: 25   
+Demonic Ring,Demonic,444,8,Physical Attack: 7x Demonic   
+Blade of the Ruined,Cursed,452,8,Physical Attack: 12x Cursed   Critical Damage: 15   
+Thundervow,Thunder,452,8,Electricity: 17x Thunder   Armor: 14   
+Giants Ring,Generic,456,8,Max Health: 25   Toughness: 15   
+Shadow Sentence,Shadow + Swiftness,486,9,Physical Attack: 7x Shadow   Critical Damage: 45   
+Vampiric Chestplate,Vampiric,495,9,Max Health: 17x Vampiric   Armor: 15   
+Phantom Tome,Generic,503,9,Magic Attack: 21   Faith: 15   
+Elemental Necklace,Generic,518,9,Elemental Power: 25   
+Ring of Power,Generic,518,9,Power: 25   
+Thundergrace,Thunder,544,9,Electricity: 25x Thunder   
+Royal Leggings,Royal,550,9,Combat: 12x Royal   Faith: 10x Silver   Armor: 8   
+Glimmer,Jade,553,9,Dazzle: 25x Jade   
+Wooden Crown,Wood,597,9,Power: 17x Wood   Armor: 10x Wood   
+Soul Collector,Generic,605,9,Magic Attack: 24   Insight: 17   
+Orion's Rage,Orion,615,9,Physical Attack: 14x Orion   Combat: 10   
+Banished Necklace,Cursed,622,9,Malice: 25x Cursed   
+Pantaloons of Greatness,Generic,666,9,Elemental Power: 25   Agility: 15   
+Royal Chestplate,Royal,737,9,Combat: 14x Royal   Faith: 12x Silver   Armor: 10   
+Qolk,Jade + Swiftness,774,10,Physical Attack: 12x Jade   Dazzle: 8   
+Mask of the Cursed,Cursed,798,10,Malice: 75x Cursed   
+Demonic Claymore,Demonic + Swiftness,840,10,Physical Attack: 15x Demonic   
+Shadow Whisper,Shadow,867,10,Physical Attack: 14x Shadow   Critical Damage: 75   
+Witherscar,Chromalure + Swiftness,921,10,Physical Attack: 15   Toxicity: 8   
+Golden Crown,Golden,939,10,Power: 25x Golden   
+Nighthorn,Chromalure,1214,10,Toxicity: 25x Chromalure   
+Demonic Axe,Demonic,1295,11,Physical Attack: 25x Demonic   
+Blake,Jade,1626,11,Physical Attack: 25x Jade   Dazzle: 10   
+Celestial Chestplate,Celestial,2080,11,Elemental Power: 37x Celestial   Armor: 31x Celestial   
+Mask of Cataclysm,Cataclysm,2095,11,Power: 45   
+Believer's Locket,Silver,2298,11,Faith: 36x Silver   
+Gloom,Jade,2554,12,Dazzle: 85x Jade   
+Magma Sabatons,Magma,3182,12,Cinder Damage: 15x Magma   Armor: 12x Magma   Max Health: 7   
+Magma Helmet,Magma,4152,12,Cinder Damage: 17x Magma   Armor: 14x Magma   Max Health: 8   
+Lightning Boots,Swiftness,4957,14,Electricity: 45   
+Magma Leggings,Magma,6512,14,Cinder Damage: 21x Magma   Armor: 17x Magma   Max Health: 12   
+Berserker's Helmet,Berserker,7053,14,Physical Attack: 25x Berserker   Critical Damage: 15   
+Magma Chestplate,Magma,11090,15,Cinder Damage: 27x Magma   Armor: 21x Magma   Max Health: 15   
+Turtle Gauntlet,Ancient Shell,14980,15,Armored Attack: 25x Ancient Shell   
+Bloodedge,Vampiric,21228,15,Physical Attack: 100x Vampiric   Life Steal: 45   Penetration: 10   
+Rod of Doom,Darkness + Wood,81314,25,Magic Attack: 1000   
+Throngler,Generic,1589363,30,Physical Attack: 1750   Max Health: 150   Critical Damage: 75   
+Excalibur,Legacy,71144541,60,Physical Attack: 13571   Recovery: 375   
+
+Enemies
+Name, Spawn Floor, Stats
+Leafing,1,Max Health: 2   Total Attacks: 2   Physical Attack: 1   
+Pebbling,1,Max Health: 4   Armor: 3   Physical Attack: 1   
+Bat,1,Max Health: 1   Physical Attack: 5   
+Boar,1,Max Health: 4   Max Mana: 1   Physical Attack: 1   
+Slime,1,Max Health: 3   Physical Attack: 1   
+Fronk,1,Max Health: 2   Max Mana: 2   Magic Attack: 1   
+Snow Pix,2,Max Health: 1   Max Mana: 1   Magic Attack: 1   
+Goblin,2,Max Health: 5   Max Mana: 1   Physical Attack: 3   
+Shadow Wizard,2,Max Health: 4   Max Mana: 3   Magic Attack: 4   
+Skeleton Warrior,2,Max Health: 3   Total Attacks: 2   Physical Attack: 1   
+Jellyrak,3,Max Health: 5   Max Mana: 2   Physical Attack: 2   
+Rogue,3,Max Health: 2   Physical Attack: 2   Max Energy: 3   
+Efis,3,Max Health: 8   Max Mana: 1   Physical Attack: 1   
+Slorn,3,Max Health: 3   Armor: 4   Physical Attack: 1   
+Armored Goblin,3,Armor: 4   Max Health: 6   Total Attacks: 1   Physical Attack: 3   Max Mana: 1   
+Stone Golem,4,Max Health: 10   Physical Attack: 4   Armor: 2   Toughness: 1   
+Witch,4,Max Health: 12   Max Mana: 3   Physical Attack: 5   
+Wizard Skeleton,4,Max Health: 2   Max Mana: 2   Total Attacks: 2   Magic Attack: 2   
+Blood Ghoul,4,Max Health: 11   Life Steal: 7   Physical Attack: 2   Penetration: 25   
+Giant Spider,4,Max Health: 9   Total Attacks: 2   Physical Attack: 3   
+Armored Spirit,5,Max Health: 7   Total Attacks: 2   Physical Attack: 2   Armor: 3   
+Venomous Spider,6,Max Health: 15   Total Attacks: 1   Toxicity: 5   Physical Attack: 2   Max Mana: 1   
+Snow Wraith,6,Max Health: 10   Max Mana: 2   Physical Attack: 5   
+Harpy,6,Max Health: 10   Physical Attack: 5   Max Energy: 4   Agility: 3   
+Red Orc,6,Max Health: 13   Physical Attack: 3   Max Energy: 3   
+Bravura,7,Max Health: 5   Penetration: 4   Total Attacks: 3   Physical Attack: 3   Recovery: 2   
+Fire Dragon,7,Max Health: 9   Physical Attack: 5   Armor: 4   
+Void Squid,8,Max Health: 15   Max Mana: 2   Physical Attack: 4   
+Overseer,9,Max Health: 10   Armor: 7   Dazzle: 5   Physical Attack: 3   Total Attacks: 2   
+Magma Golem,9,Max Health: 14   Armor: 6   Physical Attack: 4   Cinder Damage: 2   
+Kotya,9,Max Health: 12   Physical Attack: 5   Armor: 5   
+Cloud Dragon,10,Max Health: 10   Total Attacks: 2   Max Mana: 2   Armor: 7   Physical Attack: 8   
+Morizon,11,Max Health: 8   Max Mana: 3   Magic Attack: 7   
+Moon,11,Max Health: 25   Max Mana: 3   Physical Attack: 10   Armor: 5   
+Blinded Priest,11,Max Health: 5   Max Mana: 3   Magic Attack: 1   
+Pinto,13,Physical Attack: 7   Max Health: 5   Total Attacks: 1   
+Mars,13,Max Health: 15   Max Mana: 3   Physical Attack: 25   Armor: 3   Precision: 5   
+Neptune,15,Max Health: 45   Max Mana: 2   Physical Attack: 25   Armor: 15   
+Venus,17,Max Health: 25   Max Mana: 3   Physical Attack: 15   Armor: 45   
+Jupiter,20,Max Health: 64   Magic Attack: 25   Total Attacks: 4   Max Energy: 2   
+Saturn,21,Max Health: 85   Max Mana: 3   Armor: 50   Physical Attack: 18   Penetration: 45   Armor Shields: 3   
+Death,30,Max Health: 125   Max Mana: 3   Physical Attack: 75   Total Attacks: 3   
+Perfect Slave,60,Max Health: 125   Physical Attack: 85   Recovery: 45   Total Attacks: 6   Max Mana: 1   
+
+Abilities
+Name
+Noxious Empowerment,
+Persistent Payback,
+Enchanted attack,
+Multi Magic Shield,
+Shatter Strike,
+Double Attack,
+Triple Attack,
+Multi Cleanse,
+Confusion Strike,
+Frozen Wind,
+Frozen Strike,
+Stun Attack,
+Galefire,
+Drain,
+Spell Bind,
+Evil Mark,
+Death Strike,
+Touch of Eden,
+Venom Spit,
+Drop of Chaos,
+Fear of Faith,
+Mind Control,
+Multi Shield,
+Toxic Smoke,
+Multi Heal,
+Safeguard,
+Harness,
+Barrier,
+Purify,
+Mana Regen,
+Mimicry,
+Steal,
+
+Status Effects
+Name
+Weakness,
+Curse,
+Stun,
+Slowness,
+Confusion,
+Silence,
+Poison,
+Sparkle,
+Magic Shield,
+Ephemeral Armor,
+Electro Charge,
+Ephemeral Lock,
+Exhaustion,
+Armor Shield,
+Freeze,
+Invulnerability,
+Inherited Sin,
+Arthur's Mark,
+Timeout,
+Greedy,
+Combat Insight,
+Magic Blitz,
+Omni Blitz,
+Vimblow,
+Fury,
+Debuff Immunity,
+Golden Heart,
+Golden Lock,
+Lethality,
+Curse of the Tower,
+
+Adventurers
+Name, Gold Gain, Stats
+Fren,Max Health: 7   Max Energy: 5   Total Attacks: 2   Physical Attack: 1   Max Energy: 25   
+Pyry,Max Health: 8   Max Mana: 3   Magic Attack: 2   Total Attacks: 1   Magic Attack: 25   
+Sid,Max Health: 10   Max Energy: 4   Total Attacks: 1   Physical Attack: 2   Physical Attack: 25   
+Elys,Max Health: 7   Physical Attack: 1   Max Mana: 3   Total Attacks: 1   Max Health: 25   
+Fael,Max Health: 10   Max Mana: 2   Total Attacks: 2   Physical Attack: 2   Combat: 25   
+Tyr,Max Health: 20   Max Mana: 3   Physical Attack: 1   Total Attacks: 1   Armor: 45   
+Viran,Max Health: 5   Max Mana: 2   Total Attacks: 2   Toxicity: 3   Physical Attack: 1   Toxicity: 45   
+Kinno,Max Health: 5   Max Mana: 3   Max Energy: 3   Magic Attack: 3   Total Attacks: 1   Magic Attack: 45   
+Riel,Max Health: 9   Max Mana: 2   Total Attacks: 1   Magic Attack: 1   Adaptive Attack: 25   
+Jace,Max Health: 10   Total Attacks: 1   Max Mana: 2   Physical Attack: 2   Toughness: 25   
+
+Keystones
+Name, Gold Gain, Description
+Blank,
+Tranquility,
+Prodigality,
+Frailty,
+Honor,
+Swarm,
+Chaos,
+
+Stats
+Name, Gold Gain, Amount

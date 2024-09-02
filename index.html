@@ -3,25 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MegalootBuildPlanner</title>
+    <title>Equipment Builder</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="app">
-        <div id="character-selection">
-            <!-- Character portraits will be dynamically loaded here -->
+        <div id="top-half">
+            <div id="left-section">
+                <div id="character-selection">
+                    <select id="adventurer-dropdown"></select>
+                    <div id="adventurer-portrait-container">
+                        <img src="/lib/base.png" alt="Base" id="base-portrait">
+                        <div id="adventurer-portrait"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="equipment-grid-container">
+                <div id="equipment-grid-left">
+                    <div class="equipment-slot" data-slot="head"></div>
+                    <div class="equipment-slot" data-slot="neck"></div>
+                    <div class="equipment-slot" data-slot="chest"></div>
+                    <div class="equipment-slot" data-slot="weapon"></div>
+                    <div class="equipment-slot" data-slot="legs"></div>
+                    <div class="equipment-slot" data-slot="ring"></div>
+                    <div class="equipment-slot" data-slot="feet"></div>
+                    <div class="equipment-slot" data-slot="ring"></div>
+                </div>
+                <div id="equipment-grid-right">
+                    <div class="equipment-slot" data-slot="empty1"></div>
+                    <div class="equipment-slot" data-slot="empty2"></div>
+                    <div class="equipment-slot" data-slot="empty3"></div>
+                    <div class="equipment-slot" data-slot="empty4"></div>
+                    <div class="equipment-slot" data-slot="empty5"></div>
+                    <div class="equipment-slot" data-slot="empty6"></div>
+                    <div class="equipment-slot" data-slot="empty7"></div>
+                    <div class="equipment-slot" data-slot="empty8"></div>
+                    <div class="equipment-slot" data-slot="empty9"></div>
+                    <div class="equipment-slot" data-slot="empty10"></div>
+                    <div class="equipment-slot" data-slot="empty11"></div>
+                    <div class="equipment-slot" data-slot="empty12"></div>
+                    <div class="equipment-slot" data-slot="empty13"></div>
+                    <div class="equipment-slot" data-slot="empty14"></div>
+                    <div class="equipment-slot" data-slot="empty15"></div>
+                    <div class="equipment-slot" data-slot="empty16"></div>
+                    <div class="equipment-slot" data-slot="empty17"></div>
+                    <div class="equipment-slot" data-slot="empty18"></div>
+                    <div class="equipment-slot" data-slot="empty19"></div>
+                    <div class="equipment-slot" data-slot="empty20"></div>
+                    <!-- Add more empty slots as needed -->
+                </div>
+            </div>
         </div>
-        <div id="main-content">
-            <div id="character-info">
-                <div id="selected-character"></div>
-                <div id="character-stats"></div>
-            </div>
-            <div id="equipment-grid">
-                <!-- Equipment slots will be dynamically generated here -->
-            </div>
-            <div id="item-list">
-                <!-- Items will be dynamically loaded here -->
-            </div>
+        <div id="rarity-slider-container">
+            <input type="range" id="rarity-slider" min="1" max="9" value="1" step="1">
+            <div id="rarity-label">Common</div>
+        </div>
+        <div id="bottom-half">
+            <div id="item-list"></div>
         </div>
     </div>
     <script src="app.js"></script>
