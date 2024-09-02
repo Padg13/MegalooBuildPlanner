@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#character-selection {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#main-content {
+    display: flex;
+    flex: 1;
+}
+
+#character-info {
+    width: 200px;
+    padding: 20px;
+}
+
+#equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.equipment-slot {
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    border: 1px solid #555;
+}
+
+#item-list {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: move;
+}
+
+.rarity-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
