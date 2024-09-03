@@ -86,51 +86,89 @@ function updateEquipmentRestrictions(adventurer) {
 }
 
 function dragStart(e) {
-    e.dataTransfer.setData('text/plain', e.target.dataset.itemId);
+    let itemId;
+    if (e.target.tagName === 'IMG') {
+        // If the target is an image, get the itemId from its parent div
+        itemId = e.target.parentElement.dataset.itemId;
+    } else {
+        // If the target is the div itself, get the itemId directly
+        itemId = e.target.dataset.itemId;
+    }
+    console.log('Drag start:', itemId);
+    e.dataTransfer.setData('text/plain', itemId);
+    e.dataTransfer.effectAllowed = 'copy';
+}
+
+function dragLeave(e) {
+    e.currentTarget.classList.remove('drag-over');
 }
 
 function allowDrop(e) {
     e.preventDefault();
+    e.currentTarget.classList.add('drag-over');
 }
 
 function drop(e) {
     e.preventDefault();
+    console.log('Drop event triggered');
+    
     const itemId = e.dataTransfer.getData('text');
+    console.log('Dropped item ID:', itemId);
+    
+    if (!itemId) {
+        console.error('No item ID found in drop event');
+        return;
+    }
+    
     const item = gameData.item.find(i => i.Name === itemId);
+    console.log('Found item:', item);
+    
     const slot = e.target.closest('.equipment-slot');
+    console.log('Target slot:', slot);
     
     if (slot && item && !slot.classList.contains('restricted')) {
+        console.log('Conditions met, updating slot');
+        
         const img = document.createElement('img');
         img.src = `items/${item.Name.toLowerCase().replace(/ /g, '_').replace(/'/g, '')}.png`;
         img.alt = item.Name;
+        console.log('Created image element:', img);
+        
         slot.innerHTML = '';
         slot.appendChild(img);
+        slot.dataset.itemId = item.Name;
+        console.log('Updated slot:', slot);
+        
+        updateSlotRarity(slot);
+        
+        // Add tooltip functionality to the equipped item
+        slot.addEventListener('mouseenter', (e) => showTooltip(slot, item, e));
+        slot.addEventListener('mousemove', (e) => moveTooltip(e, slot.querySelector('.tooltip')));
+        slot.addEventListener('mouseleave', () => hideTooltip(slot));
+        
+        slot.classList.add('item-equipped');
+        slot.classList.remove('drag-over');
+        
+        console.log('Final slot state:', slot.outerHTML);
+    } else {
+        console.log('Conditions not met:', { slot, item, isRestricted: slot?.classList.contains('restricted') });
     }
 }
 
 
-// Drag & Drop
-function dragStart(e) {
-    e.dataTransfer.setData('text/plain', e.target.dataset.itemId);
+function updateSlotRarity(slot) {
+    const rarityBorder = `url('rarity_borders/${currentRarity}_rarity_border.png')`;
+    slot.style.setProperty('--rarity-border', rarityBorder);
+    slot.classList.add('has-rarity-border');
 }
 
-function allowDrop(e) {
-    e.preventDefault();
-}
-
-function drop(e) {
-    e.preventDefault();
-    const itemId = e.dataTransfer.getData('text');
-    const item = gameData.item.find(i => i.Name === itemId);
-    const slot = e.target.closest('.equipment-slot');
-    
-    if (slot && item && !slot.classList.contains('restricted')) {
-        const img = document.createElement('img');
-        img.src = `items/${item.Name.toLowerCase().replace(/ /g, '_').replace(/'/g, '')}.png`;
-        img.alt = item.Name;
-        slot.innerHTML = '';
-        slot.appendChild(img);
-    }
+function updateAllSlotRarities() {
+    const slots = document.querySelectorAll('.equipment-slot');
+    slots.forEach(slot => {
+        if (slot.dataset.itemId) {
+            updateSlotRarity(slot);
+        }
+    });
 }
 
 function parseContentCSV(csvText) {
@@ -170,37 +208,32 @@ function parseContentCSV(csvText) {
 // Function to load items
 function loadItems() {
     const itemList = document.getElementById('item-list');
-    itemList.innerHTML = ''; // Clear existing items
-    if (!gameData.item || gameData.item.length === 0) {
-        console.error('No items found in game data');
-        return;
-    }
-    gameData.item.forEach((item, index) => {
+    itemList.innerHTML = '';
+    gameData.item.forEach(item => {
         const div = document.createElement('div');
         div.className = 'item';
         div.draggable = true;
         div.dataset.itemId = item.Name;
+        div.dataset.name = item.Name;
+        div.dataset.stats = item.Stats || '';
+        div.dataset.setEffects = item.SetEffects || '';
 
         const img = document.createElement('img');
         img.src = `items/${item.Name.toLowerCase().replace(/ /g, '_').replace(/'/g, '')}.png`;
         img.alt = item.Name;
-        img.onerror = function() {
-            this.src = '/items/unknown.png'; // Replace with your placeholder image path
-        };
-
-        const tooltip = document.createElement('div');
-        tooltip.className = 'tooltip';
-        tooltip.style.display = 'none'; // Hide tooltip by default
 
         div.appendChild(img);
+
+        // Create tooltip element
+        const tooltip = document.createElement('div');
+        tooltip.className = 'tooltip';
+        tooltip.style.display = 'none';
         div.appendChild(tooltip);
+
         itemList.appendChild(div);
 
         div.addEventListener('dragstart', dragStart);
-        div.addEventListener('mouseenter', (e) => {
-            showTooltip(div, item, e);
-            moveTooltip(e, tooltip);
-        });
+        div.addEventListener('mouseenter', (e) => showTooltip(div, item, e));
         div.addEventListener('mousemove', (e) => moveTooltip(e, div.querySelector('.tooltip')));
         div.addEventListener('mouseleave', () => hideTooltip(div));
     });
@@ -277,7 +310,6 @@ function hideTooltip(itemElement) {
     }
 }
 
-
 // Function to update item rarities
 function updateItemRarities() {
     const items = document.querySelectorAll('.item');
@@ -292,12 +324,35 @@ function handleSliderChange(event) {
     currentRarity = rarityLevels[value - 1];
     updateRarityLabel();
     updateItemRarities();
+    updateAllSlotRarities();
 }
 
 // Function to update rarity label
 function updateRarityLabel() {
     const rarityLabel = document.getElementById('rarity-label');
     rarityLabel.textContent = currentRarity.charAt(0).toUpperCase() + currentRarity.slice(1);
+}
+
+function handleSearch() {
+    const searchTerm = document.getElementById('search-bar').value.toLowerCase();
+    const items = document.querySelectorAll('.item');
+
+    items.forEach(item => {
+        const itemName = item.dataset.name.toLowerCase();
+        const itemStats = item.dataset.stats.toLowerCase();
+        const itemSetEffects = item.dataset.setEffects.toLowerCase();
+
+        if (itemName.includes(searchTerm) || itemStats.includes(searchTerm) || itemSetEffects.includes(searchTerm)) {
+            item.style.display = '';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
+function initSearch() {
+    const searchBar = document.getElementById('search-bar');
+    searchBar.addEventListener('input', handleSearch);
 }
 
 // Initialize the application
@@ -307,14 +362,19 @@ async function init() {
     loadItems();
     populateAdventurerDropdown();
     
+    // Log the entire gameData object
+    console.log('Game Data:', JSON.parse(JSON.stringify(gameData)));
+
     const raritySlider = document.getElementById('rarity-slider');
     raritySlider.addEventListener('input', handleSliderChange);
-    
+
     updateRarityLabel();
+    initSearch();
 
     const equipmentSlots = document.querySelectorAll('.equipment-slot');
     equipmentSlots.forEach(slot => {
         slot.addEventListener('dragover', allowDrop);
+        slot.addEventListener('dragleave', dragLeave);
         slot.addEventListener('drop', drop);
     });
 
@@ -324,9 +384,6 @@ async function init() {
         updateSelectedAdventurer();
     }
 }
-
-
-
 
 // Run the initialization function when the page loads
 window.onload = init;

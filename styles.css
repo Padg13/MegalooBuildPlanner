@@ -25,7 +25,7 @@ body {
 
 #equipment-grid-container {
     display: flex;
-    gap: 5%; /* Adjust this value to change the space between the two grids */
+    gap: 4%; /* Adjust this value to change the space between the two grids */
     background-image: url('lib/Background.png'); /* Replace with your actual image path */
     background-size: cover;
     background-position: center;
@@ -33,6 +33,7 @@ body {
     border-radius: 50px;
     width: 1172px;
     height: 666px;
+    position: relative;
 }
 
 #equipment-grid-left {
@@ -46,24 +47,61 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 27px;
+    gap: 25px;
 }
 
 .equipment-slot {
     width: 140px;
     height: 140px;
-    background-color: rgba(51, 51, 51, 0.5); /* Semi-transparent background */
-
+    background-color: rgba(51, 51, 51, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+    z-index: 2;
+}
+
+.equipment-slot::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--rarity-border, none);
+    background-size: cover;
+    z-index: 1;
+    pointer-events: none;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 .equipment-slot img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 160px;
+    height: 160px;
+    max-width: 90%;
+    max-height: 90%;
     object-fit: contain;
+    z-index: 3;
+    position: relative;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
+
+.equipment-slot.drag-over {
+    border-color: #4CAF50;
+}
+
+.equipment-slot.item-equipped {
+    border-color: #4CAF50;
+}
+
+.equipment-slot.has-rarity-border::before {
+    opacity: 1;
+}
+
 #bottom-half {
     height: 50vh;
     overflow-y: auto;
@@ -136,6 +174,8 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 #adventurer-portrait {
@@ -211,54 +251,39 @@ body {
     font-weight: normal;
 }
 
+#controls-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#search-container {
+    margin-right: 20px;
+}
+
+#search-bar {
+    width: 250px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 #rarity-slider-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 20px;
-    background-color: #2a2a2a;
 }
 
 #rarity-slider {
-    width: 80%;
-    max-width: 400px;
-    margin-bottom: 10px;
+    -webkit-appearance: none;
+    width: 200px;
+    margin-right: 10px;
 }
 
 #rarity-label {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-}
-
-/* Customize the slider appearance */
-#rarity-slider {
-    -webkit-appearance: none;
-    height: 15px;
-    border-radius: 5px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    transition: opacity .2s;
-}
-
-#rarity-slider:hover {
-    opacity: 1;
-}
-
-#rarity-slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #4CAF50;
-    cursor: pointer;
-}
-
-#rarity-slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #4CAF50;
-    cursor: pointer;
+    min-width: 80px;
 }
